@@ -1,0 +1,53 @@
+* { 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0px; 
+    }
+
+.kotak {
+    display: flex;
+    flex-direction: column; /* horizontally */
+    justify-content: center; /* vertically */
+    align-items: center;
+    height: 100vh;
+    }
+
+table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+th, td {
+        padding: 8px ;
+        text-align: left;
+        vertical-align:auto; /* Mengatur rata atas */
+        align-items: center;
+}
+
+label,input { 
+    display: block; 
+    }
+
+.form-input { 
+    padding: 10px; 
+    border: none; 
+    background: rgb(225, 225, 225); 
+    border-radius: 5px; 
+    margin-bottom: 12px;
+   }
+
+#btn-kirim { 
+    padding: 10px; 
+    padding-left: 20Px;
+    padding-right: 20Px;
+    background-color: rgb(0, 63, 254); 
+    color:white; 
+    border-radius: 10px; 
+    border: none; 
+    cursor: pointer; 
+    vertical-align:left;
+    align-items: left;
+   }
+   
+#btn-kirim:hover {
+    background-color: rgb(0, 38, 152);
+    color:white;
+   }
